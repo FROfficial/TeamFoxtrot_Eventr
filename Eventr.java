@@ -40,8 +40,8 @@ public class Main extends JFrame {
             e.printStackTrace();
         }
 
-        frame.pack();
-        frame.setVisible(true);
+        pack();
+        setVisible(true);
 
         addMouseListener(new ButtonClickListener());
     }
